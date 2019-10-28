@@ -1,0 +1,144 @@
+sudo yum install nano
+sudo yum install git
+git --version
+git config --global user.name "Czoguly Tunde"
+git config --global user.email "tunde.czoguly98@gmail.com"
+git config --list
+ls
+pwd
+mkdir git-basics
+cd git-basics
+git clone --bare https://github.com/tundecz/git-basics.git
+ls
+cat > myfile1.txt
+git add myfile1.txt
+ls
+add myfile1.txt
+git add myfile1.txt
+git add.
+git add
+git add.
+git --help
+add
+git add
+ls
+git add myfile1.txt
+git status
+cd git-basics.git
+git add myfile1.txt
+cd ..
+git add myfile1.txt
+git add
+cd git-basics.git
+git status
+cd ..
+git status
+ls
+git add.
+git add .
+cd ..
+ls
+cd git-basics
+ls
+cd git-basics
+ls
+git add myfile1.txt 
+cd ..
+git version
+nano ~/.gitconfig
+git config
+git --version
+cd git-basics
+cd ..
+rmdir git-basics
+cd git-basics
+rm myfile1.txt
+ls
+rm git-basics.git
+rmdir git-basics.git
+cd git-basics.git
+ls
+cd ..
+rm -r git-basics.git
+ls
+cd ..
+ls
+cd git-basics
+git config --list
+git clone https://github.com/tundecz/git-basics.git
+cd git-basics
+rm -r git-basics.git
+ls
+cd ..
+cd..
+cd ..
+ls
+cd git-basics
+ls
+cd git-basics
+ls
+cs ..
+cd ..
+rm -r git-basics
+ls
+mkdir gitDirectory
+cd gitDirectory
+git clone https://github.com/tundecz/git-basics.git
+ls
+cd ..
+git config
+cd gitDirectory
+ls
+cd git-basics
+ls
+cat > myfile1.txt
+ls
+git add.
+git add myfile1.txt
+ls
+cd ..
+ls
+git commit
+cd git-basics
+git commit
+ls
+rm -r gitDirectory
+ls
+cd gitDirectory
+ls
+cd git-basics
+ls
+cd ..
+rm -r git-basics
+ls
+cd ..
+rmdir gitDirectory
+ls
+mkdir gitDirectory
+cd gitDirectory
+git clone https://github.com/tundecz/git-basics.git
+cd git-basics
+cat > myfile1.txt
+git add myfile1.txt
+git commit -m "First commit"
+git push
+git push -u origin master
+git pull
+ls
+git branch
+git checkout -b br1
+git branch
+cat > myfile2.txt
+git add myfile2.txt
+git push origin br1
+git branch
+ls
+git commit -m "commit on the branch br1"
+git push origin br1
+git pull
+ls
+git checkout master
+git branch
+git merge br1
+git push origin master
+history -w ./history_czoguly_tunde.txt
